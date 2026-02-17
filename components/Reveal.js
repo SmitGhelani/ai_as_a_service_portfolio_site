@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 
-export default function Reveal({ children, delay = 0, className = "" }) {
+export default function Reveal({ children, delay = 0, className = "", style = {} }) {
   const ref = useRef(null);
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function Reveal({ children, delay = 0, className = "" }) {
     <div
       ref={ref}
       className={`reveal ${className}`}
-      style={{ transitionDelay: `${delay}s` }}
+      style={{ transitionDelay: `${delay}s`, ...style }}
     >
       {children}
     </div>
