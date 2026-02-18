@@ -74,7 +74,7 @@ export default function Hero() {
             </div>
           </Reveal>
 
-          <Reveal delay={0.4}>
+          {/* <Reveal delay={0.4}>
             <div ref={statsRef} style={{ display: "flex", gap: 40, marginTop: 56 }}>
               {[
                 { target: 150, suffix: "+", label: "Projects Deployed" },
@@ -92,7 +92,7 @@ export default function Hero() {
                 </div>
               ))}
             </div>
-          </Reveal>
+          </Reveal> */}
         </div>
 
         <Reveal delay={0.2} className="hero-visual" style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>

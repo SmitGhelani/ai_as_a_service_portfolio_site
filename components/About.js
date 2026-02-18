@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 const TechCanvas = dynamic(() => import("./TechCanvas"), { ssr: false });
 
 const features = [
-  { icon: "⚡", title: "Rapid Prototyping", desc: "From concept to working prototype in 2 weeks. Fast without sacrificing quality." },
+  { icon: "⚡", title: "Rapid Prototyping", desc: "From concept to working prototype in minimum time. Fast without sacrificing quality." },
   { icon: "🔒", title: "Enterprise Security", desc: "SOC2 compliant pipelines with on-premise deployment options for sensitive data." },
   { icon: "🌐", title: "Scalable Architecture", desc: "Cloud-native systems built to scale from 100 to 100M requests seamlessly." },
 ];
@@ -24,7 +24,7 @@ export default function About() {
               We Don&apos;t Just Build AI.<br /><span className="gradient-text">We Build Advantage.</span>
             </h2>
             <p style={{ fontFamily: "var(--font-mono)", fontSize: 13, color: "var(--muted)", lineHeight: 1.8, marginBottom: 14, marginTop: 24 }}>
-              Founded by ML engineers from Google, OpenAI, and DeepMind, NeuralForge AI bridges the gap between cutting-edge research and real-world business impact.
+              Founded by Expert engineers, NeuralForge AI bridges the gap between cutting-edge research and real-world business impact.
             </p>
             <p style={{ fontFamily: "var(--font-mono)", fontSize: 13, color: "var(--muted)", lineHeight: 1.8, marginBottom: 14 }}>
               Every solution we deliver is custom-engineered for your specific use case, infrastructure, and data — never a generic off-the-shelf product wrapped in a new label.

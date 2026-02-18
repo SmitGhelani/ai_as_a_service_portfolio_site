@@ -52,7 +52,7 @@ const techs = [
   { logo: "🔮", name: "OpenAI API" }, { logo: "🧬", name: "Anthropic" },
   { logo: "☁️", name: "AWS SageMaker" }, { logo: "🌐", name: "Azure ML" },
   { logo: "📊", name: "MLflow" }, { logo: "🐳", name: "Docker / K8s" },
-  { logo: "🗄️", name: "Pinecone" }, { logo: "🐍", name: "Python" },
+  { logo: "🗄️", name: "Vector Database" }, { logo: "🐍", name: "Python" },
 ];
 
 export function TechStack() {
@@ -253,9 +253,9 @@ export function Contact() {
               Tell us about your project and we&apos;ll schedule a free 30-minute consultation to explore how AI can drive real, measurable business value.
             </p>
             {[
-              { icon: "📧", label: "Email", val: "hello@neuralforge.ai" },
-              { icon: "📞", label: "Phone", val: "+1 (415) 000-0000" },
-              { icon: "📍", label: "Headquarters", val: "San Francisco, CA · Remote Global" },
+              { icon: "📧", label: "Email", val: "ghelanismit4@gmail.com" },
+              { icon: "📞", label: "Phone", val: "+91 - 6355286783" },
+              { icon: "📍", label: "Headquarters", val: "Gujarat, India (Remote Global)" },
             ].map((c) => (
               <div key={c.label} style={{ display: "flex", alignItems: "flex-start", gap: 14, marginBottom: 20 }}>
                 <div style={{ width: 38, height: 38, border: "1px solid var(--border)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }}>
@@ -355,7 +355,7 @@ export function Footer() {
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }} className="footer-bottom-resp">
-          <p style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--muted)" }}>© 2025 NeuralForge AI Inc. All rights reserved.</p>
+          <p style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--muted)" }}>© 2026 NeuralForge AI Inc. All rights reserved.</p>
           <p style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--muted)" }}>Made with intelligence. Powered by innovation.</p>
         </div>
       </div>
