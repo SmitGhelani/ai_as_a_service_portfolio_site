@@ -24,7 +24,7 @@ export default function Navbar() {
         </div>
 
         <ul className="nav-links">
-          {["services", "about", "process", "tech", "testimonials", "pricing"].map((s) => (
+          {["services", "about", "process", "tech", "pricing"].map((s) => (
             <li key={s}>
               <a href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollTo(s); }}>
                 {s}
@@ -47,7 +47,7 @@ export default function Navbar() {
           style={{ position: "absolute", top: 26, right: 26, background: "none", border: "none", color: "var(--text)", fontSize: 26, cursor: "none" }}
           onClick={() => setMenuOpen(false)}
         >✕</button>
-        {["services", "about", "process", "tech", "testimonials", "pricing", "contact"].map((s) => (
+        {["services", "about", "process", "tech", "pricing", "contact"].map((s) => (
           <a key={s} href={`#${s}`} onClick={(e) => { e.preventDefault(); scrollTo(s); }}>
             {s}
           </a>
